@@ -1,0 +1,16 @@
+.products {
+    margin: 2vh;
+}
+
+
+.products .row {
+    width: 100%;
+    padding-bottom: 5vh;
+}
+.products .row > * {
+    display: inline-block;
+}
+.products .row img {
+    width: 25vh;
+    position: relative;
+}
