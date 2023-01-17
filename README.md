@@ -1,1 +1,1 @@
-Repository for Developers Institute for full Stack Python Bootcamp
+Repository for Developers Institute  full Stack Python Bootcamp
