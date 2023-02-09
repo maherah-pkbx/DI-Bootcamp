@@ -1,0 +1,57 @@
+button {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+    /*width: 70px;*/
+    height: 70px;
+    margin: 2px;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.display input{
+    width: 100%;
+    max-width: 296px;
+    height: 70px;
+    border: 2px solid black;
+    font-size: 2em;
+}
+
+.number, .operator{
+    width: 70px;
+}
+
+.number {
+    background-color: mediumseagreen;
+}
+
+.operator {
+    background-color: darkorange;
+}
+
+.reset {
+    background-color: cornflowerblue;
+    /*width: 150px;*/
+}
+
+.clear {
+    background-color: red;
+    /*width: 150px;*/
+}
+
+.reset, .clear {
+    width: 148px;
+}
